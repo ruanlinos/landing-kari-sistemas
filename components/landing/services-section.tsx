@@ -31,7 +31,7 @@ const cardVariants = (reduceMotion: boolean | null) => ({
     transition: {
       delay: 0.06 * index,
       duration: 0.5,
-      ease: [0.22, 1, 0.36, 1],
+      ease: [0.22, 1, 0.36, 1] as const,
     },
   }),
 });

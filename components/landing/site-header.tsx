@@ -13,7 +13,7 @@ export function SiteHeader() {
     <motion.header
       initial={{ y: -16, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+      transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] as const }}
       className="fixed inset-x-0 top-0 z-50 border-b border-[var(--border-subtle)] bg-[color-mix(in_oklab,var(--background)_82%,transparent)] backdrop-blur-xl"
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
