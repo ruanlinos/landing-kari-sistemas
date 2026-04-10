@@ -33,7 +33,7 @@ export function FooterCta() {
           </p>
           <div className="relative mt-10 flex justify-center">
             <a
-              href="mailto:contato@karisistemas.com.br"
+              href="mailto:contato@karisistemas.dev"
               className="inline-flex h-12 min-w-[220px] items-center justify-center rounded-full bg-gradient-to-r from-cyan-500 to-sky-600 px-8 text-sm font-semibold text-slate-950 transition hover:brightness-110"
             >
               Enviar e-mail
